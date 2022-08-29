@@ -1,5 +1,6 @@
 body {
   background-color: rgb(17, 17, 17);
+  margin: 0;
 }
 .container {
   margin-top: 20px;
@@ -92,10 +93,12 @@ body {
 .content {
   margin-top: 150px;
   font-family: sans-serif;
+  color: #fff;
 }
 .hello {
   color: rgb(255, 51, 67);
   font-weight: 800;
+
 }
 .designer {
   font-size: 50px;
@@ -192,7 +195,7 @@ body {
   flex-direction: row;
   position: relative;
   top: 100px;
-  left: 200px;
+  left: 236px;
 }
 .twelve {
   margin: 20px;
@@ -220,7 +223,7 @@ body {
   font-family: sans-serif;
 }
 .clients {
-  margin-left: 20px;
+  margin-left: 118px;
 }
 .s2 {
   font-size: 20px;
@@ -240,6 +243,7 @@ body {
 .featured {
   display: flex;
   flex-direction: row;
+  margin-left: 162px;
 }
 .feat-content > h3 {
   color: #fff;
@@ -287,6 +291,7 @@ body {
 }
 .img-sec {
   margin-top: 30px;
+  margin-left: 170px;
 }
 .vintage {
   color: #fff;
@@ -312,7 +317,7 @@ body {
   display: flex;
   flex-direction: row;
   margin-top: 30px;
-  margin-left: 200px;
+  margin-left: 371px;
 }
 .together {
   width: 65%;
@@ -347,7 +352,7 @@ body {
 }
 .footer-nav {
   margin: 50px;
-  margin-left: 370px;
+  margin-left: 512;
 }
 .footer-link {
   color: #fff;
@@ -355,6 +360,10 @@ body {
   margin-left: 20px;
   font-size: 9px;
   font-family: sans-serif;
+}
+.footer-items{
+  display: flex;
+  flex-direction: column;
 }
 .fb {
   width: 30px;
@@ -367,11 +376,198 @@ body {
 .footer > img {
   /* padding-top:30px  */
 }
-.footer-items {
+footer-items {
   padding: 30px;
+  justify-content: center;
+  display: flex;
 }
 .footer-logo {
   width: 80px;
   margin-left: 200px;
   /* background-color: rgb(255, 51, 67); */
+}
+
+
+@media only screen and (min-width: 370px) and (max-width:500px) {
+  .nav-links{
+      display: none;
+  }
+
+  .section-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.content{margin-top: 0;}
+
+.section-2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 160px;
+  background: transparent;
+  height: auto;
+  width: 100%;
+}
+.container{
+  text-align: center;
+
+}
+.lorem-text{
+  font-family: serif;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 100;
+  text-align: center;
+}
+
+.men-logo {
+  width: 80%;
+}
+
+.feat-btn {
+    position: static;
+
+}
+
+.top-section, .bottom-section{
+flex-wrap: wrap;
+justify-content: center;
+
+}
+
+.vintage, .button-know-more{
+  text-align: center;}
+  .button-know-more{
+  padding-bottom: 3px;
+} 
+
+.imgright1, .imgright2{
+  margin: auto
+}
+
+.designer{
+  text-align: center;
+  font-size: 27px;
+}
+
+
+.cards{
+  display: flex;
+    flex-direction: row;
+    position: static;
+    top: 50px;
+    width: 100%;
+}
+.experience{
+  display: flex;
+  flex-direction: row;
+  position: static;
+  top: 100px;
+  margin-left: 0px;
+
+}
+.section3{
+  margin-right: 200px;
+    margin-top: 20px;
+}
+.let-section{
+  background-color: rgb(30, 30, 30);
+  width: 595px;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+}
+.footer-nav{
+  margin: 0;
+}
+
+
+.cards{
+  display: flex;
+  position: static;
+  width: 100%;
+  flex-wrap:wrap
+}
+
+.experience{
+  display: flex;
+  position: static;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  justify-content: center;
+}
+.section3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 30px;
+
+}
+
+.img-sec {
+  margin-left: 0;
+  margin-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+.featured {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  }
+  .together > h3 {
+font-size: 18px;}
+
+.feat-content{
+  text-align: center;
+}
+.let-section {
+  background-color: rgb(30, 30, 30);
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-bottom: 30PX;
+  flex-direction: column;
+
+}
+.let-contact {
+position: static;
+}
+
+.together {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 0;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.footer-logo {
+  width: 22%;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+footer-items {
+  padding: 30px;
+  justify-content: center;
+  display: flex;
+}
+.footer-left{
+  justify-content: center;
+  display: flex;
+}
+.clients {
+  margin-left: 22px;
+}
+.featured{
+  margin: 0;
+}
 }
